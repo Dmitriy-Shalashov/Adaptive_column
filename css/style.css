@@ -1,0 +1,54 @@
+@import "./grid.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+h2 {
+   font-size: 16px;
+   color: rgb(44, 44, 44);
+   text-transform: uppercase;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+p {
+   font-size: 14px;
+   line-height: 20px;
+   padding: 5px 10px;
+}
+
+body {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: stretch;
+
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   color: rgb(90, 90, 90);
+   text-align: center;
+}
+
+.boxInfo {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   /* border: 1px solid black; */
+}
+
+i {
+   font-size: 3.5em;
+   color: coral;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.container > * {
+   display: flex;
+   align-items: stretch;
+}
